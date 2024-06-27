@@ -7,7 +7,7 @@ A primeira etapa de análise de produto e experiência do usuário se deu em gru
 
 + **Experiência do Usuário**: utilizamos o IHC - Interação Humano Computador para definir os objetivos do produto, pensar na usabilidade e definir a arquitetura da informação;
 + **UI Design**: os parâmetros de hierarquia visual, interação sem atrito, navegabilidade e comportamento guiado com padrões, foram usados para pensar o design de interface do usuário;
-+ **Desenvolvimento WEB**: aqui foram dados nossos primeiros passos no desenvolvimento front-end com a estruturação da página em HTML, e após os desafio no CSS para deixar tudo o mais próximo do idealizado na parte de Design.
++ **Desenvolvimento WEB**: aqui foi dado os primeiros passos no desenvolvimento front-end com a estruturação da página em HTML, e após os desafio no CSS para deixar tudo o mais próximo do idealizado na parte de Design. Ainda não tem responsividade e há muito o que melhorar, mas já é um inicio.
 
 
 **Pluggins Úteis para Figma** :point_down:
