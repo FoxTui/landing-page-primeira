@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    font-family: "Overpass Mono", monospace;
+    letter-spacing: 0.5;
+}
+
+.cabecalho {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__lista {
+    display: inline-flex;
+    align-items: center;
+    gap: 3.5625rem;
+}
+
+.menu__lista a {
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-family: "Overpass", sans-serif;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.menu__idioma {
+    padding-left: 10em;
+    display: flex;
+    gap: 1.5em;
+    padding-right: 10em;
+}
+
+.menu__botao {
+    text-transform: uppercase;
+    font-family: "Overpass", sans-serif;
+    align-content: center;
+    width: 13.625rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+
+
+    color: var(--Terciria-azulc, #E726D4);
+    text-align: center;
+    text-shadow: 0px 0px 10px #E726D4;
+    font-family: Overpass;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    border: 2px solid var(--Secundria-Verde2, #0A9396);
+    box-shadow: 0px 0px 20px 0px #94D2BD;
+}
+
+.banner__container {
+    background-color: #000;
+    width: 100vw;
+    height: 60.125em;
+}
+
+
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/img/fotoHeader.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 60.125em;
+   
+
+}
+
+.banner__logo {
+    position: absolute;
+    right: 50%;
+    
+}
+
+.banner__botao__container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+
+}
+
+.banner__botao {
+    text-transform: uppercase;
+    font-family: "Overpass", sans-serif;
+    text-align: center;
+    align-content: center;
+    
+
+    color: var(--Terciria-azulc, #E726D4);
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.225rem;
+    text-shadow: 0px 0px 14px #E726D4;
+
+    width: 18rem;
+    height: 4.625rem;
+    flex-shrink: 0;
+
+    border: 1px solid var(--GRADIENTE, rgba(231, 38, 212, 0.80));
+    background: #000;
+    box-shadow: 0px 0px 14px 0px #E726D4;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 67.5em;
+    background-color: black;
+
+}
+
+.sobre__titulo {
+    padding-top: 100px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Overpass", sans-serif;
+    ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 9.2px;
+
+}
+
+.sobre__texto {
+    padding-top: 100px;
+    width: 1270px;
+    height: 228px;
+    color: antiquewhite;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sobre__logo {
+    padding-top: 100px;
+}
+
+.cardapio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1080px;
+    background-color: black;
+    gap: 10em;
+}
+
+.cardapio__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.cardapio__botao {
+    margin-top: 4em;
+    font-family: "Overpass", sans-serif;
+    align-content: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 13.625rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+
+    color: var(--Terciria-azulc, #E726D4);
+    text-align: center;
+    text-shadow: 0px 0px 10px #E726D4;
+    font-family: Overpass;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    border: 2px solid var(--Secundria-Verde2, #0A9396);
+    box-shadow: 0px 0px 20px 0px #94D2BD;
+
+}
+
+.localizacao {
+    height: 67.5rem;
+    background-color: #005F73;
+    position: relative;
+}
+
+.localizacao__container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+
+}
+
+.local__container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.local__titulo {
+    font-family: "Overpass", sans-serif;
+    color: antiquewhite;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.575rem;
+    text-transform: uppercase;
+}
+
+.local__texto {
+    color: #26A5D8;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.botao__topo {
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    flex-shrink: 5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #000;
+    width: 10rem;
+    height: 10rem; 
+}
+
+.topo__texto {
+    font-family: "Overpass", sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.225rem;
+    text-transform: uppercase;
+    background: var(--GRADIENTE, linear-gradient(90deg, rgba(231, 38, 212, 0.80) 0%, rgba(10, 147, 150, 0.80) 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer__container {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+   
+    display: inline-flex;
+    align-items:last baseline;
+    padding-bottom: 80px;
+    justify-content: center;
+
+    background-image:url(/img/logoTransp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer__info__container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer__titulo {
+    color: #E726D4;
+    text-transform: uppercase;
+
+    font-family: "Overpass", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: 0.575rem;
+
+}
+
+.footer__texto {
+    color: beige;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: right;
+}
+
+.copy {
+    color: beige; 
+}
+
+.copy__container{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+
+}
